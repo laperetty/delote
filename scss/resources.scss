@@ -1,0 +1,19 @@
+$color-wh: #fff;
+$color-gold: #CDAA7D;
+$color-bg: #111;
+
+@mixin font-corm($fontW:600, $fontS:18px, $fontCol:$color-wh, $fontH: 23.4px) {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: $fontW;
+    font-size: $fontS;
+    color: $fontCol;
+    line-height: $fontH;
+}
+
+@mixin font-gar($fontW:700, $fontS:48px, $fontCol:$color-wh, $fontH: 57.6px) {
+    font-family: 'EB Garamond', serif;
+    font-weight: $fontW;
+    font-size: $fontS;
+    color: $fontCol;
+    line-height: $fontH;
+}
